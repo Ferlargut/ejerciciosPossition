@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.contenedor{    
+    margin: 30px;
+     width: 200px;
+    height: 200px;    
+}
+#primerContenedor{
+    background-color: red;
+}
+#segundoContenedor{
+    background-color: blue;
+}
+.caja{ 
+    position: relative;      
+    width: 100px;
+    height: 100px;
+    left: 50px; 
+    top: 50px;
+}
+#primera{
+background-color: purple; 
+}
+#segunda{
+    background-color: green;
+}
+.patron{    
+    width: 50px;
+    height: 50px;    
+}
+#primerPatron{
+    position: relative;
+    background-color: yellow;
+
+}
+#segundoPatron{
+    position: absolute;
+    background-color: black;
+    right: 100PX;
+    bottom: 100PX;
+}
